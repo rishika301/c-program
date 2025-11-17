@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    char s[10];
+    int age;
+    printf("\n Enter Name:");
+    scanf("%s",&s);
+    printf("\n Enter Age:");
+    scanf("%d",&age);
+    printf("\nName is: %s",s);
+    printf("\nAge is: %d",age);
+    return 0;
+}
