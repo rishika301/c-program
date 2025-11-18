@@ -1,0 +1,15 @@
+#include<stdio.h>
+int simple_intrest()
+{
+    int p,t,r,si;
+    printf("enter the value of p t r ");
+    scanf("%d%d%d",&p,&t,&r);
+    printf("simple intrest;%d",si);
+    si=(p*t*r)/100;
+    return(si);
+}
+int main(){
+simple_intrest();
+}
+
+
