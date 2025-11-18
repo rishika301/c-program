@@ -1,0 +1,19 @@
+//palindrome checker
+#include<stdio.h>
+int main()
+{
+    int num,digit,rev=0,temp;
+    printf("enter the value of integer number");
+    scanf("%d",&num);
+    temp=num;
+    while(num!=10)
+    {
+        digit=num%10;
+        rev=rev*10+digit;
+        num=num/10;
+    }
+    if(temp==rev)
+        printf("given value is palandrome");
+    else
+        printf("given value is not palandrome");
+}
