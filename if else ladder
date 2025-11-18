@@ -1,0 +1,23 @@
+// if else ladder condition
+#include <stdio.h>
+
+int main() {
+       int marks;
+       printf("enter marks \n");
+       scanf("%d",&marks);
+       if(marks>=90)
+       printf("excellent",marks);
+       else
+       if(marks>=80)
+       printf("good",marks);
+       else
+       if(marks>=70)
+       printf("average",marks);
+       else
+       if(marks=50)
+       printf("just pass",marks);
+       else
+       if(marks<50)
+       printf("fail",marks);
+}
+       
