@@ -1,0 +1,50 @@
+//enum custom 
+#include <stdio.h>
+
+enum Days {
+    Sunday = 1,
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday
+};
+
+int main() {
+    enum Days today;
+    int n;
+
+    printf("Enter day number (1 to 7): ");
+    scanf("%d", &n);
+
+    today = n;   
+
+    switch(today) {
+        case Sunday:
+            printf("Today is Sunday");
+            break;
+        case Monday:
+            printf("Today is Monday");
+            break;
+        case Tuesday:
+            printf("Today is Tuesday");
+            break;
+        case Wednesday:
+            printf("Today is Wednesday");
+            break;
+        case Thursday:
+            printf("Today is Thursday");
+            break;
+        case Friday:
+            printf("Today is Friday");
+            break;
+        case Saturday:
+            printf("Today is Saturday");
+            break;
+        default:
+            printf("Invalid day number!");
+    }
+
+    return 0;
+}
